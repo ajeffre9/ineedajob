@@ -1,0 +1,25 @@
+{
+  "name": "ineedajob",
+  "version": "1.0.0",
+  "description": "\"This is a website for my new app\"",
+  "main": "server.js",
+  "dependencies": {
+    "stormpath": "^0.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"echo \\\"Error: notest specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ineedajob@ineedajob.scm.azurewebsites.net:443/ineedajob.git"
+  },
+  "keywords": [
+    "need",
+    "a",
+    "job"
+  ],
+  "author": "AzzaruTech",
+  "license": "ISC"
+}

@@ -1,5 +1,7 @@
 var http = require('http');
 var fs = require('fs');
+var stormpath = require('stormpath');
+
 
 fs.readFile('index.html', function (err, html) {
     if (err) {
