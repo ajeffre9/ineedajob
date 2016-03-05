@@ -17,7 +17,7 @@ app.get('/', stormpath.getUser, function(req, res) {
     title: 'Welcome'
   });
 });
-
+app.use('/profile',stormpath.loginRequired,require('./profile')());
 app.on('stormpath.ready',function(){
   console.log('Stormpath Ready');
 });
